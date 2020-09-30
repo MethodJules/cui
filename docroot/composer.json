@@ -16,9 +16,15 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "drupal/alexa": "^1.0@RC",
+        "drupal/bootstrap_barrio": "^5.0",
+        "drupal/coffee": "^1.0",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
-        "drupal/core-recommended": "^8.8"
+        "drupal/core-recommended": "^8.8",
+        "drupal/examples": "^3.0",
+        "drupal/freelancer_zymphonies_theme": "^2.0",
+        "drush/drush": "^10.3"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -1,0 +1,15 @@
+hello_world.content:
+    path: /hello/world
+    defaults:
+        _controller: Drupal\hello_world\Controller\HelloWorldController::content
+        _title: 'Hello World'
+    requirements:
+        _permission: 'access content'
+            
+hello_world.hello_form:
+    path: /hello/formular
+    defaults:
+        _form:  \Drupal\hello_world\Form\HelloForm
+        _title: 'Hello World Formular'
+    requirements:
+        _permission: 'access content'
